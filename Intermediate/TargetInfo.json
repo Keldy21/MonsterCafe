@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "MonsterCafe",
+			"Path": "C:\\Users\\keldy\\Documents\\Unreal Projects\\MonsterCafe\\Source\\MonsterCafe.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "MonsterCafeEditor",
+			"Path": "C:\\Users\\keldy\\Documents\\Unreal Projects\\MonsterCafe\\Source\\MonsterCafeEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
