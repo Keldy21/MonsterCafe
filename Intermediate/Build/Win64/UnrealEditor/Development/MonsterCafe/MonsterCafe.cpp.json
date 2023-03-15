@@ -1,12 +1,12 @@
 {
-    "Version": "1.2",
+    "Version": "1.1",
     "Data": {
-        "Source": "c:\\users\\keldy\\documents\\unreal projects\\monstercafe\\source\\monstercafe\\monstercafe.cpp",
+        "Source": "f:\\uni\\year2\\submission_2\\monstercafe\\source\\monstercafe\\monstercafe.cpp",
         "ProvidedModule": "",
-        "PCH": "c:\\users\\keldy\\documents\\unreal projects\\monstercafe\\intermediate\\build\\win64\\monstercafeeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "PCH": "f:\\uni\\year2\\submission_2\\monstercafe\\intermediate\\build\\win64\\monstercafeeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
         "Includes": [
-            "c:\\users\\keldy\\documents\\unreal projects\\monstercafe\\intermediate\\build\\win64\\unrealeditor\\development\\monstercafe\\definitions.monstercafe.h",
-            "c:\\users\\keldy\\documents\\unreal projects\\monstercafe\\source\\monstercafe\\monstercafe.h"
+            "f:\\uni\\year2\\submission_2\\monstercafe\\intermediate\\build\\win64\\unrealeditor\\development\\monstercafe\\definitions.monstercafe.h",
+            "f:\\uni\\year2\\submission_2\\monstercafe\\source\\monstercafe\\monstercafe.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

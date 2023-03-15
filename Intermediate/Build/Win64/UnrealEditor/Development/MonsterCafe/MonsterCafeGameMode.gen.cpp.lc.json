@@ -1,0 +1,19 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\leo\\documents\\github\\monstercafe\\intermediate\\build\\win64\\unrealeditor\\inc\\monstercafe\\monstercafegamemode.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\leo\\documents\\github\\monstercafe\\intermediate\\build\\win64\\monstercafeeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\users\\leo\\documents\\github\\monstercafe\\intermediate\\build\\win64\\unrealeditor\\development\\monstercafe\\definitions.monstercafe.h",
+            "c:\\users\\leo\\documents\\github\\monstercafe\\source\\monstercafe\\monstercafegamemode.h",
+            "h:\\epic games\\unreal engine\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\gameframework\\gamemodebase.h",
+            "h:\\epic games\\unreal engine\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\engine\\serverstatreplicator.h",
+            "h:\\epic games\\unreal engine\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\serverstatreplicator.generated.h",
+            "h:\\epic games\\unreal engine\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\gamemodebase.generated.h",
+            "c:\\users\\leo\\documents\\github\\monstercafe\\intermediate\\build\\win64\\unrealeditor\\inc\\monstercafe\\monstercafegamemode.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
