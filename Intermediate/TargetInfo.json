@@ -2,12 +2,12 @@
 	"Targets": [
 		{
 			"Name": "MonsterCafe",
-			"Path": "F:\\Uni\\Year2\\Submission_2\\MonsterCafe\\Source\\MonsterCafe.Target.cs",
+			"Path": "C:\\Users\\keldy\\Documents\\GitHub\\MonsterCafe\\Source\\MonsterCafe.Target.cs",
 			"Type": "Game"
 		},
 		{
 			"Name": "MonsterCafeEditor",
-			"Path": "F:\\Uni\\Year2\\Submission_2\\MonsterCafe\\Source\\MonsterCafeEditor.Target.cs",
+			"Path": "C:\\Users\\keldy\\Documents\\GitHub\\MonsterCafe\\Source\\MonsterCafeEditor.Target.cs",
 			"Type": "Editor"
 		}
 	]

@@ -1,19 +1,19 @@
 {
-    "Version": "1.1",
+    "Version": "1.2",
     "Data": {
-        "Source": "f:\\uni\\year2\\submission_2\\monstercafe\\intermediate\\build\\win64\\unrealeditor\\inc\\monstercafe\\monstercafecharacter.gen.cpp",
+        "Source": "c:\\users\\keldy\\documents\\github\\monstercafe\\intermediate\\build\\win64\\unrealeditor\\inc\\monstercafe\\monstercafecharacter.gen.cpp",
         "ProvidedModule": "",
-        "PCH": "f:\\uni\\year2\\submission_2\\monstercafe\\intermediate\\build\\win64\\monstercafeeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "PCH": "c:\\users\\keldy\\documents\\github\\monstercafe\\intermediate\\build\\win64\\monstercafeeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
         "Includes": [
-            "f:\\uni\\year2\\submission_2\\monstercafe\\intermediate\\build\\win64\\unrealeditor\\development\\monstercafe\\definitions.monstercafe.h",
-            "f:\\uni\\year2\\submission_2\\monstercafe\\source\\monstercafe\\monstercafecharacter.h",
+            "c:\\users\\keldy\\documents\\github\\monstercafe\\intermediate\\build\\win64\\unrealeditor\\development\\monstercafe\\definitions.monstercafe.h",
+            "c:\\users\\keldy\\documents\\github\\monstercafe\\source\\monstercafe\\monstercafecharacter.h",
             "c:\\program files\\epic games\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\gameframework\\character.h",
             "c:\\program files\\epic games\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\gameframework\\charactermovementreplication.h",
             "c:\\program files\\epic games\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\charactermovementreplication.generated.h",
             "c:\\program files\\epic games\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\gameframework\\rootmotionsource.h",
             "c:\\program files\\epic games\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\rootmotionsource.generated.h",
             "c:\\program files\\epic games\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\character.generated.h",
-            "f:\\uni\\year2\\submission_2\\monstercafe\\intermediate\\build\\win64\\unrealeditor\\inc\\monstercafe\\monstercafecharacter.generated.h"
+            "c:\\users\\keldy\\documents\\github\\monstercafe\\intermediate\\build\\win64\\unrealeditor\\inc\\monstercafe\\monstercafecharacter.generated.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

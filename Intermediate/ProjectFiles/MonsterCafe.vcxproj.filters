@@ -11,6 +11,7 @@
     <None Include="..\..\Source\MonsterCafeEditor.Target.cs">
       <Filter>Source</Filter>
     </None>
+    <None Include="..\..\.gitignore" />
     <Filter Include="Config">
       <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
     </Filter>
@@ -38,6 +39,12 @@
     <Filter Include="Source\MonsterCafe">
       <UniqueIdentifier>{2228F62A-B3AF-3DE6-9022-C64A674CE074}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\MonsterCafe\BP_Jelly_Base.cpp">
+      <Filter>Source\MonsterCafe</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MonsterCafe\BP_Jelly_Base.h">
+      <Filter>Source\MonsterCafe</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\MonsterCafe\FoodCrate.cpp">
       <Filter>Source\MonsterCafe</Filter>
     </ClCompile>
@@ -48,6 +55,24 @@
       <Filter>Source\MonsterCafe</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\MonsterCafe\Ingredient_Base.h">
+      <Filter>Source\MonsterCafe</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\MonsterCafe\Jelly_Base.cpp">
+      <Filter>Source\MonsterCafe</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MonsterCafe\Jelly_Base.h">
+      <Filter>Source\MonsterCafe</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\MonsterCafe\MixingMachine.cpp">
+      <Filter>Source\MonsterCafe</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MonsterCafe\MixingMachine.h">
+      <Filter>Source\MonsterCafe</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\MonsterCafe\MixingMachineBowl.cpp">
+      <Filter>Source\MonsterCafe</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MonsterCafe\MixingMachineBowl.h">
       <Filter>Source\MonsterCafe</Filter>
     </ClInclude>
     <None Include="..\..\Source\MonsterCafe\MonsterCafe.Build.cs">
