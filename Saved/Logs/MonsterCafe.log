@@ -15603,3 +15603,196 @@ BP_Table2
 [2023.03.22-18.31.33:923][856]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
 [2023.03.22-18.31.33:953][857]LogPlayLevel: Display: Destroying online subsystem :Context_250
 [2023.03.22-18.32.14:238][117]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2023.03.22-18.39.02:920][733]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.03.22-18.39.02:928][733]LogWorldPartition: Display: GenerateStreaming started...
+[2023.03.22-18.39.02:928][733]LogWorldPartition: Display: GetPartitionedActors started...
+[2023.03.22-18.39.02:928][733]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2023.03.22-18.39.02:928][733]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2023.03.22-18.39.02:928][733]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2023.03.22-18.39.02:928][733]LogWorldPartition: Display: GetPartitionedActors took 89 us
+[2023.03.22-18.39.02:930][733]LogWorldPartition: Display: GenerateStreaming took 1 ms
+[2023.03.22-18.39.02:930][733]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.03.22-18.39.02:930][733]PIE: New page: PIE session: ThirdPersonMap (22 Mar 2023, 18:39:02)
+[2023.03.22-18.39.02:930][733]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.03.22-18.39.02:951][733]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2023.03.22-18.39.02:951][733]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020674s)
+[2023.03.22-18.39.02:951][733]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.020734s)
+[2023.03.22-18.39.02:951][733]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.03.22-18.39.02:951][733]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2023.03.22-18.39.02:952][733]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.03.22-18.39.02:952][733]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2023.03.22-18.39.02:957][733]LogWorldPartition: Display: WorldPartition initialize took 4 ms
+[2023.03.22-18.39.02:957][733]LogPlayLevel: PIE: World Init took: (0.005756s)
+[2023.03.22-18.39.02:989][733]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2023.03.22-18.39.02:990][733]LogAudio: Display: Creating Audio Device:                 Id: 146, Scope: Unique, Realtime: True
+[2023.03.22-18.39.02:990][733]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.22-18.39.02:990][733]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.22-18.39.02:990][733]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.22-18.39.02:990][733]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.22-18.39.02:990][733]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.22-18.39.02:991][733]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.03.22-18.39.02:991][733]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.22-18.39.02:991][733]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.22-18.39.02:991][733]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.03.22-18.39.02:991][733]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.03.22-18.39.02:991][733]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.03.22-18.39.02:993][733]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.03.22-18.39.03:013][733]LogAudioMixer: Display: Using Audio Hardware Device VoiceMeeter Aux Input (VB-Audio VoiceMeeter AUX VAIO)
+[2023.03.22-18.39.03:014][733]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.22-18.39.03:014][733]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.22-18.39.03:014][733]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.22-18.39.03:014][733]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=146
+[2023.03.22-18.39.03:014][733]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=146
+[2023.03.22-18.39.03:016][733]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=146
+[2023.03.22-18.39.03:016][733]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=146
+[2023.03.22-18.39.03:016][733]LogInit: FAudioDevice initialized.
+[2023.03.22-18.39.03:016][733]LogAudio: Display: Audio Device (ID: 146) registered with world 'ThirdPersonMap'.
+[2023.03.22-18.39.03:025][733]LogLoad: Game class is 'MonsterCafeGameMode'
+[2023.03.22-18.39.03:033][733]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2023.03.22-18.39.03
+[2023.03.22-18.39.03:033][733]LogWorld: Bringing up level for play took: 0.007881
+[2023.03.22-18.39.03:035][733]LogOnline: OSS: Created online subsystem instance for: :Context_251
+[2023.03.22-18.39.03:037][733]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=823.320 Y=1111.898 Z=92.013
+[2023.03.22-18.39.03:037][733]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2023.03.22-18.39.03:038][733]PIE: Server logged in
+[2023.03.22-18.39.03:038][733]PIE: Play in editor total start time 0.113 seconds.
+[2023.03.22-18.39.23:772][812]LogMaterial: Display: Missing cached shadermap for Preview:Red_Jelly in PCD3D_SM5, Default, SM5 (DDC key hash: 1D81178C643E66F118BEED9C9C7F28B9EC500832), compiling. 
+[2023.03.22-18.39.23:774][812]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 3A4FC996992F8FE134E084F15A462D4ACE204FA3), compiling. 
+[2023.03.22-18.39.23:776][812]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_0 in PCD3D_SM5, Default, SM5 (DDC key hash: FDE935E69AEFAD2C3B0265D9FA71A6C9D439A60E), compiling. 
+[2023.03.22-18.39.23:781][812]LogMaterial: Display: Missing cached shadermap for Preview:Red_Jelly in PCD3D_SM5, Default, SM5 (DDC key hash: 624E0706C4EF5FA606FF7A50660FF71D4A83B04E), compiling. 
+[2023.03.22-18.39.23:783][812]LogSlate: Window 'Color Picker' being destroyed
+[2023.03.22-18.39.23:790][812]MaterialEditorStats: Texture samplers: 0/16
+[2023.03.22-18.39.23:790][812]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.03.22-18.39.23:790][812]MaterialEditorStats: Shader Count: 0
+[2023.03.22-18.39.23:837][812]LogShaderCompilers: Display: ================================================
+[2023.03.22-18.39.23:837][812]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.03.22-18.39.23:837][812]LogShaderCompilers: Display: Total job queries 1883, among them cache hits 1060 (56.29%)
+[2023.03.22-18.39.23:837][812]LogShaderCompilers: Display: Tracking 626 distinct input hashes that result in 184 distinct outputs (29.39%)
+[2023.03.22-18.39.23:837][812]LogShaderCompilers: Display: RAM used: 0.56 MB (0.00 GB) of 1638.40 MB (1.60 GB) budget. Usage: 0.03%
+[2023.03.22-18.39.23:837][812]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.03.22-18.39.23:837][812]LogShaderCompilers: Display: Shaders Compiled: 286
+[2023.03.22-18.39.23:837][812]LogShaderCompilers: Display: Jobs assigned 626, completed 626 (100.00%)
+[2023.03.22-18.39.23:837][812]LogShaderCompilers: Display: Average time worker was idle: 51.48 s
+[2023.03.22-18.39.23:837][812]LogShaderCompilers: Display: Time job spent in pending queue: average 4.26 s, longest 47.92 s
+[2023.03.22-18.39.23:837][812]LogShaderCompilers: Display: Job execution time: average 1.32 s, max 20.28 s
+[2023.03.22-18.39.23:837][812]LogShaderCompilers: Display: Job life time (pending + execution): average 5.58 s, max 49.03
+[2023.03.22-18.39.23:837][812]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 285.69 s
+[2023.03.22-18.39.23:837][812]LogShaderCompilers: Display: Jobs were issued in 608 batches (only local compilation was used), average 1.03 jobs/batch
+[2023.03.22-18.39.23:837][812]LogShaderCompilers: Display: Average processing rate: 2.19 jobs/sec
+[2023.03.22-18.39.23:837][812]LogShaderCompilers: Display: Effective parallelization: 1.68 (times faster than compiling all shaders on one thread). Compare with number of workers: 2
+[2023.03.22-18.39.23:837][812]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.03.22-18.39.23:837][812]LogShaderCompilers: Display:                   TBasePassPSFSelfShadowedTranslucencyPolicy (compiled    6 times, average 2.30 sec, max 3.72 sec, min 0.48 sec)
+[2023.03.22-18.39.23:837][812]LogShaderCompilers: Display:             TBasePassPSFSelfShadowedVolumetricLightmapPolicy (compiled    6 times, average 2.25 sec, max 3.32 sec, min 0.49 sec)
+[2023.03.22-18.39.23:837][812]LogShaderCompilers: Display: TBasePassPSFSelfShadowedCachedPointIndirectLightingPolicySkylight (compiled    6 times, average 2.25 sec, max 2.99 sec, min 0.51 sec)
+[2023.03.22-18.39.23:837][812]LogShaderCompilers: Display:     TBasePassPSFSelfShadowedVolumetricLightmapPolicySkylight (compiled    5 times, average 2.24 sec, max 3.05 sec, min 0.50 sec)
+[2023.03.22-18.39.23:837][812]LogShaderCompilers: Display:           TBasePassPSFSelfShadowedTranslucencyPolicySkylight (compiled    6 times, average 2.13 sec, max 2.94 sec, min 0.49 sec)
+[2023.03.22-18.39.23:837][812]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.03.22-18.39.23:837][812]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 12.93% of total time (compiled   82 times, average 0.76 sec, max 1.19 sec, min 0.55 sec)
+[2023.03.22-18.39.23:837][812]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 11.82% of total time (compiled   75 times, average 0.76 sec, max 2.87 sec, min 0.44 sec)
+[2023.03.22-18.39.23:837][812]LogShaderCompilers: Display:                                                 FLumenCardVS - 7.62% of total time (compiled   60 times, average 0.61 sec, max 0.73 sec, min 0.49 sec)
+[2023.03.22-18.39.23:837][812]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 7.33% of total time (compiled   26 times, average 1.36 sec, max 4.12 sec, min 0.51 sec)
+[2023.03.22-18.39.23:837][812]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight - 5.03% of total time (compiled   20 times, average 1.21 sec, max 4.22 sec, min 0.49 sec)
+[2023.03.22-18.39.23:837][812]LogShaderCompilers: Display: ================================================
+[2023.03.22-18.39.23:846][813]MaterialEditorStats: Texture samplers: 4/16
+[2023.03.22-18.39.23:846][813]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.03.22-18.39.23:846][813]MaterialEditorStats: Shader Count: 8
+[2023.03.22-18.39.29:168][133]LogMaterial: Display: Missing cached shadermap for Preview:Red_Jelly in PCD3D_SM5, Default, SM5 (DDC key hash: C904EB2A8FD938077E0BAEE7FED9032073865A1E), compiling. 
+[2023.03.22-18.39.29:175][133]LogMaterial: Display: Missing cached shadermap for Preview:Red_Jelly in PCD3D_SM5, Default, SM5 (DDC key hash: F61E9B150FBBCA6359BC46E9C97939B413E71994), compiling. 
+[2023.03.22-18.39.29:179][133]MaterialEditorStats: Texture samplers: 0/16
+[2023.03.22-18.39.29:179][133]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.03.22-18.39.29:179][133]MaterialEditorStats: Shader Count: 0
+[2023.03.22-18.39.31:642][274]MaterialEditorStats: Texture samplers: 3/16
+[2023.03.22-18.39.31:642][274]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.03.22-18.39.31:642][274]MaterialEditorStats: Shader Count: 5
+[2023.03.22-18.39.32:743][316]LogEditorTransaction: Undo Edit Value
+[2023.03.22-18.39.32:747][316]LogMaterial: Display: Missing cached shadermap for Preview:Red_Jelly in PCD3D_SM5, Default, SM5 (DDC key hash: 15E3BF559E54295AE49E66E59E63C761BA9E1099), compiling. 
+[2023.03.22-18.39.32:754][316]LogMaterial: Display: Missing cached shadermap for Preview:Red_Jelly in PCD3D_SM5, Default, SM5 (DDC key hash: ADFA35B1670B826E2D04310C772F1DED4C588F28), compiling. 
+[2023.03.22-18.39.33:758][373]MaterialEditorStats: Texture samplers: 4/16
+[2023.03.22-18.39.33:758][373]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.03.22-18.39.33:758][373]MaterialEditorStats: Shader Count: 8
+[2023.03.22-18.39.34:910][440]LogWorldPartition: New Streaming Source: SIE -> Position: X=-188.063 Y=1498.356 Z=668.183
+[2023.03.22-18.39.45:008][147]LogMaterial: Display: Missing cached shadermap for Preview:Red_Jelly in PCD3D_SM5, Default, SM5 (DDC key hash: EF950FED1EC6D9692B9487F2D896646FDEA41FD2), compiling. 
+[2023.03.22-18.39.45:010][147]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_0 in PCD3D_SM5, Default, SM5 (DDC key hash: AC37F6A9FE699F4401FC26AA1F287A5EFBE00DE0), compiling. 
+[2023.03.22-18.39.45:012][147]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_1 in PCD3D_SM5, Default, SM5 (DDC key hash: 40DDB3D67BF644D1D85E8F5E732DD2CCFCF76DF0), compiling. 
+[2023.03.22-18.39.45:016][147]MaterialEditorStats: Texture samplers: 0/16
+[2023.03.22-18.39.45:016][147]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.03.22-18.39.45:016][147]MaterialEditorStats: Shader Count: 0
+[2023.03.22-18.39.45:102][148]MaterialEditorStats: Texture samplers: 4/16
+[2023.03.22-18.39.45:102][148]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.03.22-18.39.45:102][148]MaterialEditorStats: Shader Count: 8
+[2023.03.22-18.39.47:611][324]LogMaterial: Display: Missing cached shadermap for Preview:Red_Jelly in PCD3D_SM5, Default, SM5 (DDC key hash: 3451220BD31FDD197B0F67A27E5AD08EDE36DBA8), compiling. 
+[2023.03.22-18.39.47:613][324]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_1 in PCD3D_SM5, Default, SM5 (DDC key hash: 5F7E8C6E0D9512497E33472817609DE4D0B9DBBA), compiling. 
+[2023.03.22-18.39.47:619][324]MaterialEditorStats: Texture samplers: 0/16
+[2023.03.22-18.39.47:620][324]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.03.22-18.39.47:620][324]MaterialEditorStats: Shader Count: 0
+[2023.03.22-18.39.49:408][411]MaterialEditorStats: Texture samplers: 1/16
+[2023.03.22-18.39.49:408][411]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.03.22-18.39.49:408][411]MaterialEditorStats: Shader Count: 5
+[2023.03.22-18.39.50:515][466]MaterialEditorStats: Texture samplers: 3/16
+[2023.03.22-18.39.50:515][466]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.03.22-18.39.50:515][466]MaterialEditorStats: Shader Count: 7
+[2023.03.22-18.39.53:314][596]MaterialEditorStats: Texture samplers: 4/16
+[2023.03.22-18.39.53:314][596]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.03.22-18.39.53:314][596]MaterialEditorStats: Shader Count: 8
+[2023.03.22-18.40.00:842][ 52]LogMaterial: Display: Missing cached shadermap for Preview:Red_Jelly in PCD3D_SM5, Default, SM5 (DDC key hash: FB7D42D636B7051BFCC1B186CF69415A5C499F74), compiling. 
+[2023.03.22-18.40.00:844][ 52]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_1 in PCD3D_SM5, Default, SM5 (DDC key hash: F6B7D4FCCABB1DEC3BC3576272DDED947140178C), compiling. 
+[2023.03.22-18.40.00:850][ 52]MaterialEditorStats: Texture samplers: 0/16
+[2023.03.22-18.40.00:850][ 52]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.03.22-18.40.00:850][ 52]MaterialEditorStats: Shader Count: 0
+[2023.03.22-18.40.02:567][141]MaterialEditorStats: Texture samplers: 1/16
+[2023.03.22-18.40.02:567][141]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.03.22-18.40.02:567][141]MaterialEditorStats: Shader Count: 5
+[2023.03.22-18.40.03:680][201]MaterialEditorStats: Texture samplers: 3/16
+[2023.03.22-18.40.03:680][201]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.03.22-18.40.03:680][201]MaterialEditorStats: Shader Count: 7
+[2023.03.22-18.40.06:185][321]MaterialEditorStats: Texture samplers: 4/16
+[2023.03.22-18.40.06:185][321]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.03.22-18.40.06:185][321]MaterialEditorStats: Shader Count: 8
+[2023.03.22-18.40.18:894][ 26]LogMaterial: Display: Missing cached shadermap for Preview:Red_Jelly in PCD3D_SM5, Default, SM5 (DDC key hash: 2C07F4D3C1442C46D3F6449194CC628E8830FF35), compiling. 
+[2023.03.22-18.40.18:898][ 26]MaterialEditorStats: Texture samplers: 0/16
+[2023.03.22-18.40.18:898][ 26]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.03.22-18.40.18:898][ 26]MaterialEditorStats: Shader Count: 0
+[2023.03.22-18.40.18:962][ 27]MaterialEditorStats: Texture samplers: 4/16
+[2023.03.22-18.40.18:962][ 27]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.03.22-18.40.18:962][ 27]MaterialEditorStats: Shader Count: 8
+[2023.03.22-18.40.22:612][366]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.22-18.40.22:612][366]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.03.22-18.40.22:613][366]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.03.22-18.40.22:614][366]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.22-18.40.22:626][366]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.22-18.40.22:634][366]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.22-18.40.22:668][366]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.03.22-18.40.22:668][366]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=146
+[2023.03.22-18.40.22:669][366]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=146
+[2023.03.22-18.40.22:672][366]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.22-18.40.22:676][366]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2023.03.22-18.40.22:713][367]LogPlayLevel: Display: Destroying online subsystem :Context_251
+[2023.03.22-18.40.24:251][447]LogMaterial: Display: Missing cached shadermap for Preview:Red_Jelly in PCD3D_SM5, Default, SM5 (DDC key hash: BD6CF81843C2B2837D1BED87D06B52D8BDA8E925), compiling. 
+[2023.03.22-18.40.24:254][447]MaterialEditorStats: Texture samplers: 0/16
+[2023.03.22-18.40.24:254][447]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.03.22-18.40.24:254][447]MaterialEditorStats: Shader Count: 0
+[2023.03.22-18.40.24:311][450]MaterialEditorStats: Texture samplers: 4/16
+[2023.03.22-18.40.24:311][450]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.03.22-18.40.24:311][450]MaterialEditorStats: Shader Count: 8
+[2023.03.22-18.40.26:900][642]LogMaterial: Display: Missing cached shadermap for Preview:Red_Jelly in PCD3D_SM5, Default, SM5 (DDC key hash: D7978EF2BED5BDBB437FA78E51735F929E58DB36), compiling. 
+[2023.03.22-18.40.26:905][642]MaterialEditorStats: Texture samplers: 0/16
+[2023.03.22-18.40.26:905][642]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.03.22-18.40.26:905][642]MaterialEditorStats: Shader Count: 0
+[2023.03.22-18.40.27:943][696]LogMaterialEditor: Saving and Compiling material Red_Jelly
+[2023.03.22-18.40.28:382][696]LogMaterial: Display: Missing cached shadermap for Preview:Red_Jelly in PCD3D_SM5, Default, SM5 (DDC key hash: BE8A89985D6D4E0E012F2330B8A542428C1DA943), compiling. 
+[2023.03.22-18.40.28:407][696]LogMaterial: Display: Missing cached shadermap for Red_Jelly in PCD3D_SM5, Default, SM5 (DDC key hash: 3E60D30D4663A654D17625E09B2821C332CBA013), compiling. 
+[2023.03.22-18.40.28:458][696]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2023.03.22-18.40.29:354][696]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2023.03.22-18.40.31:696][696]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' exceeded budget of 2.000000s
+[2023.03.22-18.41.00:119][696]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' complete in 0.003482s (28.554125s overbudget)
+[2023.03.22-18.41.00:201][696]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animations/Jelly/materials/Jelly/Red_Jelly" FILE="C:/Users/Leo/Documents/GitHub/MonsterCafe/Content/Animations/Jelly/materials/Jelly/Red_Jelly.uasset" SILENT=true
+[2023.03.22-18.41.00:203][696]LogSavePackage: Moving output files for package: /Game/Animations/Jelly/materials/Jelly/Red_Jelly
+[2023.03.22-18.41.00:203][696]LogSavePackage: Moving 'C:/Users/Leo/Documents/GitHub/MonsterCafe/Saved/Red_Jelly20C1DDCA49B574E894CE6CB836C53351.tmp' to 'C:/Users/Leo/Documents/GitHub/MonsterCafe/Content/Animations/Jelly/materials/Jelly/Red_Jelly.uasset'
+[2023.03.22-18.41.00:214][696]AssetCheck: New page: Asset Save: Red_Jelly
+[2023.03.22-18.41.00:214][696]LogContentValidation: Display: Validating Material /Game/Animations/Jelly/materials/Jelly/Red_Jelly.Red_Jelly
+[2023.03.22-18.41.00:215][696]MaterialEditorStats: Base pass shader: 76 instructions
+[2023.03.22-18.41.00:216][696]MaterialEditorStats: Base pass vertex shader: 274 instructions
+[2023.03.22-18.41.00:216][696]MaterialEditorStats: Base pass vertex shader: 346 instructions
+[2023.03.22-18.41.00:216][696]MaterialEditorStats: Texture samplers: 3/16
+[2023.03.22-18.41.00:216][696]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.03.22-18.41.00:216][696]MaterialEditorStats: Shader Count: 90
+[2023.03.22-18.41.10:155][929]LogViewport: Scene viewport resized to 87x68, mode Windowed.
