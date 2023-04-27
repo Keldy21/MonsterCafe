@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
+#include "Camera/CameraComponent.h"
 #include "Ingredient_Base.generated.h"
 
 UCLASS()
@@ -23,4 +24,19 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
+	UPROPERTY(EditAnywhere)
+		UStaticMeshComponent* MyMesh;
+
+	UPROPERTY(EditAnywhere)
+		USceneComponent* HoldingComp;
+
+	UFUNCTION()
+		void Pickup();
+
+	bool bHolding;
+	bool bGravity;
+
+	ACharacter* MyCharacter;
+	UCameraComponent* PlayerCamera;
+	FVector ForwardVector;
 };
