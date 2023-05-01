@@ -7,6 +7,7 @@
 #include "GameFramework/CharacterMovementComponent.h"
 #include "GameFramework/Controller.h"
 #include "GameFramework/SpringArmComponent.h"
+#include "DrawDebugHelpers.h"
 
 //////////////////////////////////////////////////////////////////////////
 // AMonsterCafeCharacter
@@ -48,6 +49,20 @@ AMonsterCafeCharacter::AMonsterCafeCharacter()
 
 	// Note: The skeletal mesh and anim blueprint references on the Mesh component (inherited from Character) 
 	// are set in the derived blueprint asset named ThirdPersonCharacter (to avoid direct content references in C++)
+
+	HoldingComponent = CreateDefaultSubobject<USceneComponent>(TEXT("HoldingComponent"));
+	HoldingComponent->SetRelativeLocation(FVector(50.0f, 0.0f, 0.0f));
+	HoldingComponent->SetupAttachment(CameraBoom);
+	//HoldingComponent->SetupAttachment(R_Hand); //probably the issue is here, idk
+
+	CurrentItem = NULL;
+	bCanMove = true;
+}
+
+void AMonsterCafeCharacter::BeginPlay()
+{
+	// Call the base class  
+	Super::BeginPlay();
 }
 
 //////////////////////////////////////////////////////////////////////////
@@ -60,6 +75,7 @@ void AMonsterCafeCharacter::SetupPlayerInputComponent(class UInputComponent* Pla
 
 	PlayerInputComponent->BindAxis("Move Forward / Backward", this, &AMonsterCafeCharacter::MoveForward);
 	PlayerInputComponent->BindAxis("Move Right / Left", this, &AMonsterCafeCharacter::MoveRight);
+	PlayerInputComponent->BindAction("PickupPlace", IE_Pressed, this, &AMonsterCafeCharacter::PickupPlace);
 }
 
 void AMonsterCafeCharacter::TurnAtRate(float Rate)
@@ -94,5 +110,57 @@ void AMonsterCafeCharacter::MoveRight(float Value)
 		const FVector Direction = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::Y);
 		// add movement in that direction
 		AddMovementInput(Direction, Value);
+	}
+}
+
+void AMonsterCafeCharacter::Tick(float DeltaTime)
+{
+	Super::Tick(DeltaTime);
+
+	
+	//DRAWS A LINE INFRONT OF THE FIRST PERSON CAMERA
+	//Start = FollowCamera->GetComponentLocation();
+	//ForwardVector = FollowCamera->GetForwardVector();
+	//End = ((ForwardVector * 500.0f) + Start);
+
+	//DrawDebugLine(GetWorld(), Start, End, FColor::Green, false, 1, 0, 1);
+	
+
+	if (!bHoldingItem)
+	{
+		if (GetWorld()->LineTraceSingleByChannel(Hit, Start, End, ECC_Visibility, DefaultComponentQueryParams, DefaultResponseParams))
+		{
+			if (Hit.GetActor()->GetClass()->IsChildOf(AIngredient_Base::StaticClass()))
+			{
+				CurrentItem = Cast<AIngredient_Base>(Hit.GetActor());
+			}
+		}
+		else
+		{
+			CurrentItem = NULL;
+		}
+	}
+}
+
+void AMonsterCafeCharacter::PickupPlace()
+{
+	if (CurrentItem)
+	{
+		UE_LOG(LogTemp, Warning, TEXT("I DONT WORK"));
+		ToggleItemPickup();
+	}
+}
+
+void AMonsterCafeCharacter::ToggleItemPickup()
+{
+	if (CurrentItem)
+	{
+		bHoldingItem = !bHoldingItem;
+		CurrentItem->Pickup();
+
+		if (!bHoldingItem)
+		{
+			CurrentItem = NULL;
+		}
 	}
 }

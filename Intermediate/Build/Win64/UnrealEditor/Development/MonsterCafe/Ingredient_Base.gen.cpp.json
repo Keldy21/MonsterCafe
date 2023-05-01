@@ -5,9 +5,17 @@
         "ProvidedModule": "",
         "PCH": "c:\\users\\leo\\documents\\github\\monstercafe\\intermediate\\build\\win64\\monstercafeeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
         "Includes": [
+<<<<<<< HEAD
             "c:\\users\\leo\\documents\\github\\monstercafe\\intermediate\\build\\win64\\unrealeditor\\development\\monstercafe\\definitions.monstercafe.h",
             "c:\\users\\leo\\documents\\github\\monstercafe\\source\\monstercafe\\ingredient_base.h",
             "c:\\users\\leo\\documents\\github\\monstercafe\\intermediate\\build\\win64\\unrealeditor\\inc\\monstercafe\\ingredient_base.generated.h"
+=======
+            "c:\\users\\keldy\\documents\\github\\monstercafe\\intermediate\\build\\win64\\unrealeditor\\development\\monstercafe\\definitions.monstercafe.h",
+            "c:\\users\\keldy\\documents\\github\\monstercafe\\source\\monstercafe\\ingredient_base.h",
+            "c:\\program files\\epic games\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\camera\\cameracomponent.h",
+            "c:\\program files\\epic games\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\cameracomponent.generated.h",
+            "c:\\users\\keldy\\documents\\github\\monstercafe\\intermediate\\build\\win64\\unrealeditor\\inc\\monstercafe\\ingredient_base.generated.h"
+>>>>>>> Jelly_making_2
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []
