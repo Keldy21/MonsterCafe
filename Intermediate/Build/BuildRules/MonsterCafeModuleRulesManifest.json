@@ -1,8 +1,8 @@
 {
 	"SourceFiles": [
-		"C:\\Users\\2002274\\Downloads\\MonsterCafe\\Source\\MonsterCafe\\MonsterCafe.Build.cs",
-		"C:\\Users\\2002274\\Downloads\\MonsterCafe\\Source\\MonsterCafe.Target.cs",
-		"C:\\Users\\2002274\\Downloads\\MonsterCafe\\Source\\MonsterCafeEditor.Target.cs"
+		"C:\\Users\\keldy\\Documents\\GitHub\\MonsterCafe\\Source\\MonsterCafe\\MonsterCafe.Build.cs",
+		"C:\\Users\\keldy\\Documents\\GitHub\\MonsterCafe\\Source\\MonsterCafe.Target.cs",
+		"C:\\Users\\keldy\\Documents\\GitHub\\MonsterCafe\\Source\\MonsterCafeEditor.Target.cs"
 	],
 	"EngineVersion": "5.0.3"
 }
