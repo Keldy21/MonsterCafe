@@ -81,5 +81,8 @@ public:
 
 	FComponentQueryParams DefaultComponentQueryParams;
 	FCollisionResponseParams DefaultResponseParams;
+
+	void Dashing();
+	float DashDistance = 1000.f;
 };
 

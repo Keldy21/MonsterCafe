@@ -76,6 +76,8 @@ void AMonsterCafeCharacter::SetupPlayerInputComponent(class UInputComponent* Pla
 	PlayerInputComponent->BindAxis("Move Forward / Backward", this, &AMonsterCafeCharacter::MoveForward);
 	PlayerInputComponent->BindAxis("Move Right / Left", this, &AMonsterCafeCharacter::MoveRight);
 	PlayerInputComponent->BindAction("PickupPlace", IE_Pressed, this, &AMonsterCafeCharacter::PickupPlace);
+	PlayerInputComponent->BindAction("Dash", IE_Pressed, this, &AMonsterCafeCharacter::Dashing);
+
 }
 
 void AMonsterCafeCharacter::TurnAtRate(float Rate)
@@ -163,4 +165,10 @@ void AMonsterCafeCharacter::ToggleItemPickup()
 			CurrentItem = NULL;
 		}
 	}
+}
+
+void AMonsterCafeCharacter::Dashing()
+{
+	const FVector ForwardDir = this->GetActorRotation().Vector();
+	LaunchCharacter(ForwardDir * DashDistance, true, true);
 }
